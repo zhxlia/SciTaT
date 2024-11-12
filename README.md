@@ -1,6 +1,7 @@
 # SciTQA: A Challenging Question Answering Dataset on a Scientific Hybrid of Tabular and Textual Content
 
 SciTQA (Scientific Tabular And Textual dataset for Question Answering) contains 12,790 questions associated with 12,753 hybrid contexts from arxiv papers.
+
 You can download our SciTQA dataset via [SciTQA](./dataset).
 
 Each question in our SciTQA dataset contains the following keys:
