@@ -1,6 +1,7 @@
 # SciTaT: A Question Answering Benchmark for Scientific Tables and Text Covering Diverse Reasoning Types
 
 SciTaT contains 13,808 questions associated with 8,907 arxiv papers.
+
 You can download our SciTQA dataset via [SciTQA](./dataset).
 
 Each question in our SciTQA dataset contains the following keys:
