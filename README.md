@@ -1,5 +1,12 @@
 # SciTaT: A Question Answering Benchmark for Scientific Tables and Text Covering Diverse Reasoning Types
 
+## Introduction
+This repository contains the code and data for the paper SCITAT: A Question Answering Benchmark for Scientific Tables and Text Covering Diverse Reasoning Types
+
+![The examples of SciTaT](./figures/intro.jpg)
+
+## Dataset
+
 SciTaT contains 13,808 questions associated with 8,907 arxiv papers.
 
 You can download our SciTQA dataset via [SciTQA](./dataset).
@@ -32,3 +39,12 @@ Each question in our SciTQA dataset contains the following keys:
     }
 
 ```
+
+## Baselines
+
+You can run [slurm/run_baselines.slurm](slurm/run_baselines.slurm) to conduct the baselines.
+
+You can run [slurm/run_car.slurm](slurm/run_car.slurm) to perform our proposed baseline CaR.
+
+You can run [slurm/run_evaluation.slurm](slurm/run_evaluation.slurm) to evaluate your predicted result.
+
