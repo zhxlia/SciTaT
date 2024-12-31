@@ -9,9 +9,9 @@ This repository contains the code and data for the paper SCITAT: A Question Answ
 
 SciTaT contains 13,808 questions associated with 8,907 arxiv papers.
 
-You can download our SciTQA dataset via [SciTQA](./dataset).
+You can download our SciTQA dataset via [SciTaT](./dataset).
 
-Each question in our SciTQA dataset contains the following keys:
+Each question in our SciTaT dataset contains the following keys:
 ```python
 {
         "id": The unique id of the question,
@@ -26,7 +26,8 @@ Each question in our SciTQA dataset contains the following keys:
                 "table_id": The unique id of the table,
                 "label": The label of the table used in the latex code of the paper,
                 "caption": The caption of the table,
-                "table": List[List[str]], the content of the table
+                "table": List[List[str]], the content of the table,
+                "latex": str, the LaTeX format of the table
             }
         ],
         "question": The question itself,
